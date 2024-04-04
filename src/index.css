@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navbar > div{
+    margin: 0 2rem;
+}

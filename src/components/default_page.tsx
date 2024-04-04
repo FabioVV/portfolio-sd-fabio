@@ -8,18 +8,19 @@ interface DefaultProps {
 }
 
 
-const default_page: React.FC<DefaultProps> = ({children}) => {
+const Default_page: React.FC<DefaultProps> = ({children}) => {
 
   return (
-    <main>
+    <>
         <Navbar/>
+        <main>
         {children}
+        </main>
         <Footer/>
-
-    </main>
+    </>
   )
 }
 
 
 
-export default default_page
+export default Default_page
