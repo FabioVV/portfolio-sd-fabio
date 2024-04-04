@@ -1,8 +1,23 @@
 import React from 'react'
 
+
+
 function Footer() {
+
+
   return (
-    <div>footer</div>
+    <footer className="footer footer-center p-10 bg-primary text-primary-content">
+      <aside>
+        <p className="font-bold">
+          Fábio Varela
+        </p> 
+        <p>Copyright © 2024 - All rights reserved</p>
+      </aside> 
+      <nav>
+        <div className="grid grid-flow-col gap-4">
+        </div>
+      </nav>
+    </footer>
   )
 }
 

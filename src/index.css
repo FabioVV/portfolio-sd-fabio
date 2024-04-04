@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 5rem;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -17,4 +24,10 @@
 
 .navbar > div{
     margin: 0 2rem;
+    align-items: center;
+    display: flex;
+}
+
+.name-title{
+    font-size: 3em;
 }
