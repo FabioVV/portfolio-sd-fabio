@@ -70,17 +70,17 @@ function Navbar() {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><NavLink className='logo' to="/"> Home /&gt; </NavLink></li>
+              <li><NavLink to="/"> Home /&gt; </NavLink></li>
               <li><NavLink to="/projects"> Projects /&gt; </NavLink></li>
               <li><NavLink to="/experiences"> Experience /&gt; </NavLink></li>
               <li><button onClick={()=>{document.getElementById('download_modal')?.showModal()}}> Resume /&gt; </button></li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl">Fábio</a>
+          <NavLink className="btn btn-ghost text-2xl" to="/"> Fábio </NavLink>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div id='navbar_end' className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-              <li><NavLink className='logo' to="/"> Home /&gt; </NavLink></li>
+              <li><NavLink to="/"> Home /&gt; </NavLink></li>
               <li><NavLink to="/projects"> Projects /&gt; </NavLink></li>
               <li><NavLink to="/experiences"> Experience /&gt; </NavLink></li>
               <li><button onClick={()=>{document.getElementById('download_modal')?.showModal()}}> Resume /&gt; </button></li>

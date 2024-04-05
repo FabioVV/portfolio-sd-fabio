@@ -32,11 +32,6 @@ footer{
     font-size: 3em;
 }
 
-
-
-
-
-
 .resume{
     cursor: pointer;
     transition: 200ms ease-in-out;
@@ -46,3 +41,11 @@ footer{
 .resume:hover{
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
+
+
+@media screen and (max-width: 700px) {
+    #navbar_end {
+        display: none;
+    }
+  }
+  
