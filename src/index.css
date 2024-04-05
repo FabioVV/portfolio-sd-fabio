@@ -31,3 +31,18 @@ footer{
 .name-title{
     font-size: 3em;
 }
+
+
+
+
+
+
+.resume{
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+
+.resume:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
