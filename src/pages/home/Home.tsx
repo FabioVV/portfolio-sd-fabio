@@ -8,6 +8,10 @@ function Home() {
   return (
     <Default_page>
 
+        <section>
+            
+        </section>
+
     </Default_page>
   )
 }
