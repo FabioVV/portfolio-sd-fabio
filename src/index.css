@@ -103,6 +103,11 @@ footer{
     object-fit: contain;
 }
 
+
+.home-container{
+    margin-top: 4em;
+}
+
 @media screen and (max-width: 790px) {
     #navbar_end {
         display: none;

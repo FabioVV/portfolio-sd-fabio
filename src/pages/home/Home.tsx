@@ -8,9 +8,10 @@ function Home() {
   return (
     <Default_page>
 
-        <section>
-            
-        </section>
+      <section className='home-container'>
+        <h1 className='text-center font-bold text-5xl'>Hi, my name is Fábio</h1>
+        
+      </section>
 
     </Default_page>
   )
