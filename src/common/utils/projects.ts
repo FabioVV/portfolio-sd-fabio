@@ -8,12 +8,13 @@ interface Project {
 }
 
 
-export const Projects:Project[] = [
+export const ProjectsList:Project[] = [
     {
         name:'Simple blog in flask',
         image:flask,
         github_repo:'https://github.com/FabioVV/FlaskLearning',
-    }
+    },
+
 ]
 
 

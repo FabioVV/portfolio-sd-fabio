@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 
+ul > li{
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+
 footer{
     display: flex;
     justify-content:center;
@@ -45,23 +51,77 @@ footer{
 
 .experiences{
     width: 60vw;
-    margin: 0 auto;
+    margin: 4em auto;
 }
 
 
 .education{
     width: 60vw;
-    margin: 0 auto;
+    margin: 4em auto;
 }
 
 .projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    max-width: 1200px;
+    padding: 1em 0em;
+    position: relative;
+    width: calc(100% - 2em);
+    z-index: 2;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+
+    border: 1px rgb(53, 53, 53) solid;
+
+    width: 350px;
+    height: 220px;
+
+    border-radius: 0.75em;
+    cursor: pointer;
+    height: 240px;
+    position: relative;
+
+    transition: 200ms ease-in-out;
+}
+
+.project:hover{
+    transform: scale(1.05);
+    border: 2px rgb(114, 114, 114) solid;
 
 }
 
+.project-image{
+    object-fit: contain;
+}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 790px) {
     #navbar_end {
         display: none;
     }
 }
   
+
+
+@media screen and (max-width: 1115px) {
+    .projects{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
+
+
+@media screen and (max-width: 745px) {
+    .projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -7,6 +7,10 @@ function Experiences() {
   return (
     <Default_page>
 
+      <header className='mt-5'>
+        <h1 className='text-center text-4xl'>My work experiences<span className='font-extrabold'></span></h1>
+      </header>
+
       <section className='experiences'>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
 

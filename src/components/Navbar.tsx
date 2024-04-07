@@ -38,7 +38,7 @@ function Navbar() {
       <dialog id="download_modal" className="modal modal-bottom sm:modal-middle">
         <div className="modal-box">
 
-          <h3 className="font-bold text-lg">Resume language</h3>
+          <h3 className="font-bold text-lg">Download my resume in portuguese or english</h3>
           <div style={{marginTop:'24px'}} className="flex w-full">
 
             <div onClick={()=>{HandleResumeDownload('portuguese')}} className="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center resume">

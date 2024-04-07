@@ -8,6 +8,10 @@ function Education() {
   return (
     <Default_page>
 
+        <header className='mt-5'>
+            <h1 className='text-center text-4xl'>My education<span className='font-extrabold'> (+ what i'am studying)</span></h1>
+        </header>
+
         <section className='education'>
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
             <li>
