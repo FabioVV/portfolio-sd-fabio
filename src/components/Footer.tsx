@@ -6,7 +6,7 @@ function Footer() {
 
 
   return (
-    <footer className="footer footer-center p-10 bg-primary text-primary-content">
+    <footer className="footer footer-center p-10">
       <aside>
         <p className="font-bold">
           Fábio Varela

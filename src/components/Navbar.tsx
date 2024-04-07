@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 function Navbar() {
@@ -72,7 +71,9 @@ function Navbar() {
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li><NavLink to="/"> Home /&gt; </NavLink></li>
               <li><NavLink to="/projects"> Projects /&gt; </NavLink></li>
-              <li><NavLink to="/experiences"> Experience /&gt; </NavLink></li>
+              <li><NavLink to="/experiences"> Experiences /&gt; </NavLink></li>
+              <li><NavLink to="/education"> Education /&gt; </NavLink></li>
+
               <li><button onClick={()=>{document.getElementById('download_modal')?.showModal()}}> Resume /&gt; </button></li>
             </ul>
           </div>
@@ -82,7 +83,9 @@ function Navbar() {
           <ul className="menu menu-horizontal px-1">
               <li><NavLink to="/"> Home /&gt; </NavLink></li>
               <li><NavLink to="/projects"> Projects /&gt; </NavLink></li>
-              <li><NavLink to="/experiences"> Experience /&gt; </NavLink></li>
+              <li><NavLink to="/experiences"> Experiences /&gt; </NavLink></li>
+              <li><NavLink to="/education"> Education /&gt; </NavLink></li>
+
               <li><button onClick={()=>{document.getElementById('download_modal')?.showModal()}}> Resume /&gt; </button></li>
           </ul>
         </div>
