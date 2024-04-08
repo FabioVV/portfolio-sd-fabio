@@ -80,7 +80,6 @@ footer{
     gap: 0.8rem;
     align-items: center;
 
-    border: 1px rgb(53, 53, 53) solid;
 
     width: 350px;
     height: 220px;
@@ -95,7 +94,6 @@ footer{
 
 .project:hover{
     transform: scale(1.05);
-    border: 2px rgb(114, 114, 114) solid;
 
 }
 

@@ -14,10 +14,10 @@ function Projects() {
       <section className='projects'>
         
         {ProjectsList?.map((project, idx)=>{
-          return <div key={idx} className='project' onClick={()=>{window.open(project.github_repo)}}>
+          return <div key={idx} className='project border-solid border-2 border-base-content' onClick={()=>{window.open(project.github_repo)}}>
 
             <div className='project-image-container'>
-              <img className='project-image' src={project.image}/>
+              <img alt='Project image' className='project-image' src={project.image}/>
             </div>
             <div className='project-title-container'>
               <h1 className='project-title text-lg antialiased font-bold text-pretty'>{project.name}</h1>
